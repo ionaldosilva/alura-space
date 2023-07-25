@@ -13,8 +13,8 @@
                 <section class="tags">
                     <p class="tags__titulo">Busque por tags:</p>
                     <ul class="tags__lista">
-                            <li class="tags__tag">Nebulosa</li> 
-                            <li class="tags__tag">Estrela</li>
+                        <li class="tags__tag">Nebulosa</li>
+                        <li class="tags__tag">Estrela</li>
                         <li class="tags__tag">Galáxia</li>
                         <li class="tags__tag">Planeta</li>
                     </ul>
@@ -46,6 +46,9 @@
                             </li>
                             {% endfor %}
                             {% else %}
+                            <div class="imagem__texto">
+                                <p>Nenhum Arquivo encontrado</p>
+                            </div>
                             {% endif %}
                         </ul>
                     </div>
