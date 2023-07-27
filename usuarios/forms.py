@@ -26,7 +26,7 @@ class LoginForms(forms.Form):
         )
     )
 class CadastroForms(forms.Form):
-    nome_cadatro = forms.CharField(
+    nome_cadastro = forms.CharField(
         label = "Nome",
         required=True,
         max_length=100,
@@ -54,7 +54,6 @@ class CadastroForms(forms.Form):
         max_length=70,
         widget=forms.PasswordInput(
             attrs={
-                
                 "class": "form-control",
                 "placeholder": "Digite sua senha"
             }
@@ -66,8 +65,7 @@ class CadastroForms(forms.Form):
         max_length=70,
         widget=forms.PasswordInput(
             attrs={
-            
-                "class":"form-control",
+                "class": "form-control",
                 "placeholder": "Repita a sua Senha"
             }
         )
