@@ -1,6 +1,6 @@
 from django.contrib import admin
 
-from galeria.models import Fotografias
+from apps.galeria.models import Fotografias
 
 class ListandoFotografias(admin.ModelAdmin):
     list_display=("id", "nome", "legenda", "publicada")
